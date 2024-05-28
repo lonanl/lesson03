@@ -10,6 +10,10 @@ body {
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 h1, h2, h3 {
   color: #23735D;
 }
@@ -53,4 +57,5 @@ div {
 table, th, td {
   border: 1px solid;
   border-collapse: collapse;
+  padding: .3rem;
 }
