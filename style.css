@@ -14,12 +14,26 @@ h1 {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #23735D;
 }
 
 ul {
   padding: 0;
+}
+
+.qoute {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1faee;
+  border: 2px solid #ccdcc6;
+}
+
+.qoute img {
+  height: .8em;
+  margin-right: .5rem;
 }
 
 ul>li {
@@ -54,7 +68,9 @@ div {
   overflow: hidden;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid;
   border-collapse: collapse;
   padding: .3rem;
